@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="date" id="myDate" value="2000-05-05">
+
+
+<button onclick="myFunction()">Göster</button>
+
+<p><strong>Bugün günlerden:</strong></p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDate").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+
+</body>
+</html>

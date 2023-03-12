@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soru1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="card">
+            <h1 class="soru">
+                Kaplumbağa sürüngen bir hayvan mıdır?
+            </h1>
+            <div class="cevaplar">
+                <button class="cevap" onclick="dogru('1')">
+                    Doğru
+                </button>
+                <button class="cevap" onclick="yanlis('1')">
+                    Yanlış
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <h1 class="soru">
+                Deve Çöl ortamında dayanıklı değildir?
+            </h1>
+            <div class="cevaplar">
+                <button class="cevap" onclick="yanlis('2')">
+                    Doğru
+                </button>
+                <button class="cevap" onclick="dogru('2')">
+                    Yanlış
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <h1 class="soru">
+                İlk evcilleştirilmiş hayvanı yazınız.
+            </h1>
+            <div class="cevaplar">
+                <input type="text" class="cevap" id="textBox" name="fname" value="">
+                <button class="cevap" onclick="text()">
+                    Tıkla
+                </button>
+            </div>
+        </div>
+        <div class="sonuc">
+            <div class="card2" id="sonuc1">
+                <div class="sonuc2">
+                    1
+                    <img id="image1" src="">
+                </div>
+
+            </div>
+            <div class="card2" id="sonuc2">
+                <div class="sonuc2">
+                    2
+                    <img id="image2" src="">
+                </div>
+
+            </div>
+            <div class="card2" id="sonuc2">
+                <div class="sonuc2">
+                    3
+                    <img id="image3" src="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
